@@ -1,0 +1,7 @@
+import api2.Cidade
+
+model {
+	Cidade cidade
+}
+
+json tmpl.cidade(cidade)

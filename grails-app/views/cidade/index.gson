@@ -1,0 +1,8 @@
+import api2.Cidade
+
+model {
+	Iterable<Cidade> cidadeList
+}
+
+json tmpl.cidade(cidadeList ?: [])
+
